@@ -5,35 +5,47 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>My-Portfolio@2026</title>
+
   <meta
     name="description"
-    content="TUN MYINT AUNGによる大学の講義での生成AI・Web制作の学習記録。AIを使った制作や試行錯誤を紹介しています。"
+    content="TUN MYINT AUNGによる大学の講義での生成AI・Web制作の学習記録。AIを使った画像制作と試行錯誤を紹介しています。"
   >
 
   <meta property="og:title" content="My-Portfolio@2026">
   <meta property="og:type" content="website">
+
   <meta
     property="og:description"
     content="大学の講義を通して学んだ生成AIの活用と、Webページ制作の記録です。"
   >
+
   <meta
     property="og:image"
     content="https://duan-flux747.github.io/dhu2026summer-/images/event-horizon.png"
   >
 
+  <meta
+    property="og:image:alt"
+    content="優雅なアニメ風の人物と、二つのブラックホールが浮かぶ紫色の幻想世界。"
+  >
+
   <link rel="stylesheet" href="style.css">
 
   <style>
+    .bio,
+    .work p {
+      line-height: 1.9;
+    }
+
+    .work {
+      min-width: 0;
+    }
+
     .work img {
       display: block;
       width: 100%;
       height: auto;
       border-radius: 12px;
-    }
-
-    .bio,
-    .work p {
-      line-height: 1.9;
     }
 
     .work details {
@@ -42,6 +54,12 @@
 
     .work summary {
       cursor: pointer;
+      line-height: 1.7;
+    }
+
+    .work summary:focus-visible {
+      outline: 2px solid currentColor;
+      outline-offset: 4px;
     }
 
     .work pre {
@@ -60,7 +78,9 @@
 
 <body>
   <header class="hero">
-    <p class="course">My-Portfolio@2026 / 生成AI・Web制作の学習記録</p>
+    <p class="course">
+      My-Portfolio@2026 / 生成AI・Web制作の学習記録
+    </p>
 
     <h1>TUN MYINT AUNG</h1>
 
@@ -80,35 +100,37 @@
         <figure class="work">
           <img
             src="images/event-horizon.png"
-            alt="宙に浮かぶ人物が手を伸ばし、空の二つのブラックホールへ水や岩、紫色の結晶が引き寄せられるダークファンタジーの風景。"
+            alt="紺色の長い髪と流れる衣装をまとったアニメ風の女性が、宙に浮かびながら手を伸ばしている。紫色の空には大小二つのブラックホールが浮かび、結晶や岩が舞い上がり、山々に囲まれた湖には光と波紋が広がっている。"
           >
 
           <figcaption>
             <h3>EVENT HORIZON — 星を従える者</h3>
 
             <p class="meta">
-              2026 / 生成AIによる画像制作の学習 / Dark Fantasy
+              2026 / 生成AIによる画像制作の学習 / Anime Dark Fantasy
             </p>
 
             <p>
-              この画像は、言葉による指示で生成AIの出力がどう変わるかを試した学習作品です。
-              「美しさ」と「畏怖」が同時に存在する場面を目指し、
-              人物の動き、空のブラックホール、浮遊する結晶、
-              暗い色調などを対話しながら調整しました。
+              「優雅さ」と「圧倒的な力」が共存する場面を目指して制作した、
+              AI生成の学習作品です。
+              風に流れる髪と衣装、静かな表情の人物、
+              空を覆うブラックホールを組み合わせ、
+              美しさの中に緊張感がある世界を表現しようとしました。
             </p>
 
             <p>
-              最初の穏やかな風景に対して、より強い動きと威圧感を求める指示を加えました。
-              完成画像では、深い藍色と紫の空、光るブラックホールの縁、
-              舞い上がる破片などが、その方向性を表しています。
-              ブラックホールの描写は科学的な再現ではなく、
-              ファンタジーとしての演出です。
+              人物は、日本の2Dアニメを意識した線画とセル塗りの表現に調整しました。
+              背景には深い藍色と紫を使い、ブラックホールの縁や結晶には
+              明るい紫と赤の光を配置しています。
+              人物の手から空へ向かう斜めの流れと、
+              浮遊する破片や湖の波紋によって、動きと奥行きを感じられる構図を目指しました。
             </p>
 
             <p>
-              使用ツール：ChatGPTの画像生成機能。<br>
-              私が参考となる雰囲気や修正方針を伝え、
-              ChatGPTが詳細なプロンプトの構成と画像生成を担当しました。
+              使用ツール：ChatGPT・Codex
+              （内蔵の画像生成機能、文章・HTMLの作成支援）。<br>
+              私が求める雰囲気や修正方針を伝え、
+              AIが詳細なプロンプトの構成と画像生成を担当しました。
               この画像はAI生成の静止画であり、
               私が手作業でアニメ撮影、3D制作、FXシミュレーションを行ったものではありません。
             </p>
@@ -118,22 +140,23 @@
 
               <p>
                 はじめに、自分の興味をもとに画像生成を依頼しました。
-                最初の提案は求めていた雰囲気と異なったため、
+                最初の提案は求める雰囲気と異なったため、
                 幻想的な空や光の演出がある参考画像を示し、
                 そのままコピーせず、新しい場面として展開するよう伝えました。
               </p>
 
               <p>
-                その後、光る花びらが星空へ流れる穏やかな風景が生成されました。
-                さらに「もっとアクションが欲しい」「少し暗いトーンにしたい」
-                「空にブラックホールを一つか二つ加えたい」と修正を指示し、
-                現在の画像になりました。
+                その後、光る花びらが星空へ流れる穏やかな風景から、
+                「もっとアクションが欲しい」「少し暗いトーンにしたい」
+                「空にブラックホールを一つか二つ加えたい」
+                と修正を重ねました。
               </p>
 
               <p>
-                『原神』のロノヴァを威圧感や神秘的な雰囲気の参考として挙げました。
-                生成用プロンプトでは、特定のキャラクターや衣装を再現せず、
-                オリジナルのデザインにするよう指定しています。
+                最終段階では、人物をより日本の2Dアニメらしく、
+                美しく優雅に描くよう指定しました。
+                顔の描き方、線画、セル塗り、髪や衣装の動きを調整し、
+                背景の迫力と人物の繊細さが両立する方向を目指しました。
               </p>
             </details>
 
@@ -141,53 +164,51 @@
               <summary>今回の学習で気づいたこと</summary>
 
               <p>
-                「美しく」「優雅に」といった抽象的な言葉だけでは、
-                自分が思い描く方向が十分に伝わらないことがありました。
-                参考画像を使って雰囲気を共有し、
-                動き・明るさ・色・追加したい要素を具体的に伝えることで、
-                出力の方向を調整しやすくなりました。
+                「美しい」「優雅」といった言葉だけでは、
+                自分が思い描く画風や雰囲気が十分に伝わらないことがありました。
+                そこで、人物の表情、線の描き方、色調、動き、
+                追加したい要素を分けて伝えるようにしました。
               </p>
 
               <p>
-                また、生成された画像を見るだけでなく、
-                何が違うと感じたのかを言葉にして修正する過程も、
-                今回の学習の大切な部分でした。
+                また、画像全体を毎回変えるのではなく、
+                「背景や構図は残し、人物の画風を変える」と指定することで、
+                気に入った部分を維持しながら修正する方法を試しました。
+                生成結果を観察し、何を残して何を変えたいのかを言葉にすることが、
+                今回の学習につながりました。
               </p>
             </details>
 
             <details>
-              <summary>使用した画像編集プロンプト（英語・全文）</summary>
+              <summary>再現用プロンプト（完成画像から再構成・英語）</summary>
 
               <p>
-                先に生成した星空と湖の画像を編集元として、
-                ChatGPTが構成した以下のプロンプトで変更しました。
+                以下は、完成画像の特徴を読み取り、
+                再現用として整理したプロンプトです。
+                実際に使用した複数回の生成・編集指示を
+                そのまま記録したものではありません。
+                同じプロンプトでも生成結果は変わります。
               </p>
 
-              <pre lang="en">Transform this portfolio artwork into a dynamic intimidating dark celestial fantasy action scene. Keep its beautiful sophisticated anime illustration medium, alpine lake setting, petals/crystals motif, and original adult woman with short midnight teal hair, but substantially change the action, lighting and sky.
+              <pre lang="en">Create an original Japanese anime dark-fantasy illustration in a wide 16:9 cinematic composition.
 
-User wants a slightly darker tone and a black hole or two in the sky, with the imposing divine presence they associate with Ronova from Genshin; convey that emotional gravity using an ORIGINAL character and costume rather than reproducing Ronova.
+On the left side, a beautiful and elegant adult woman floats just above a shattered stone ledge. Show her full body in a graceful diagonal pose, with one arm extended toward the sky and her face visible in three-quarter view. Her expression is calm, confident, and quietly intimidating.
 
-Wide 16:9 cinematic key frame. Low camera close to the water with strong diagonal composition.
+Give her long, flowing midnight-blue hair, expressive violet eyes, delicate anime facial features, refined linework, and clean cel shading. She wears a layered charcoal dress with an ivory outer robe, wide flowing sleeves, wine-purple fabric accents, and restrained gold ornamentation. Her hair and clothing sweep toward the left, conveying powerful wind and gravitational motion. Keep her anatomy and hands natural and clearly readable.
 
-Woman now larger at left foreground, three-quarter view, suspended just above a shattering stone ledge, torso twisting through a powerful sweeping arm gesture as if commanding gravity, one leg extended down and the other bent naturally.
+A colossal black hole dominates the upper-right sky. Its completely dark center is surrounded by a brilliant violet-white rim and a tilted red-violet accretion disk. A much smaller black hole appears in the upper-left distance. These are stylized fantasy celestial effects rather than a scientific visualization.
 
-Her elegant ivory and charcoal travelling coat with wine-purple lining whips into sharp flowing arcs; resolute intimidating expression, anatomical hands and clear silhouette.
+Fill the sky with deep indigo storm clouds, lavender highlights, scattered stars, and curved streams of luminous particles. Floating amethyst-like crystals and broken rocks sweep diagonally upward through the scene, linking the character's gesture to the celestial disturbance.
 
-Enormous pitch-black gravitational sphere in upper right sky with thin searing violet-white photon ring and tilted crimson-gold accretion disk visibly bent over and under sphere by gravitational lensing; a second much smaller distant black hole upper left establishes cosmic scale without symmetrical rings.
+Below, a vast mountain lake reflects the purple sky. Concentric luminous ripples spread across the water, with scattered stone spires and distant jagged mountains. A soft peach glow along the horizon creates depth and contrasts with the dark sky.
 
-The heavens visibly warp around these voids.
+Use a palette of midnight blue, charcoal, violet, and muted lavender, with selective crimson and pale gold highlights. Preserve detail in the shadows. Add controlled rim lighting to the character's hair and clothing, delicate crystal glints, atmospheric mist, and coherent reflections.
 
-A massive curved surge of lake water, stone fragments, luminous petals and prismatic shards is pulled diagonally upward around her toward the main black hole.
+Combine a clearly hand-drawn Japanese 2D anime character with richly painted backgrounds and refined cinematic effects. Emphasize elegant motion, immense scale, and a balance between beauty and overwhelming power.
 
-Distinct finely controlled particle trails convey velocity and directional acceleration; sharp character with selective motion blur in foreground debris, huge broken circular shockwave ripples race across water.
+Keep the character prominent on the left and the largest black hole on the upper right. Maintain a clear visual hierarchy and readable silhouette.
 
-Dark indigo and storm-lavender clouds, black-cherry shadows, silver-violet rim light and selective ember-crimson accents, retain luminous beautiful atmospheric detail and readable mountains; don't crush everything into darkness.
-
-Mood majestic, ominous, elegant and powerful rather than horror.
-
-Painterly anime background and refined cinematic VFX compositing, believable reflections, layered mist, dramatic scale, coherent focal hierarchy.
-
-No text, no watermark, no game UI, no logos, no gore, no recognizable existing character costume.</pre>
+Use an original human character design. No photorealistic face, plastic 3D appearance, animal features, text, logos, watermark, or interface elements.</pre>
             </details>
 
             <details>
@@ -195,10 +216,16 @@ No text, no watermark, no game UI, no logos, no gore, no recognizable existing c
 
               <p>
                 講義で紹介されたGitHubのテンプレートをもとに、
-                ChatGPTの支援を受けながらHTMLの内容を編集しました。
+                ChatGPT・Codexの支援を受けながらHTMLの内容を編集しました。
                 自己紹介や作品説明の変更、画像のアップロード、
                 変更のコミット、GitHub Pagesでの公開を通して、
                 Webページ制作の基本を学んでいます。
+              </p>
+
+              <p>
+                画像ファイルは images/event-horizon.png として管理しています。
+                HTMLに指定したパスと実際のファイル名を一致させること、
+                更新後に公開ページの表示を確認することも学習の一部です。
               </p>
             </details>
           </figcaption>
@@ -209,9 +236,10 @@ No text, no watermark, no game UI, no logos, no gore, no recognizable existing c
 
   <footer>
     <p>TUN MYINT AUNG</p>
+
     <p class="note">
       このサイトは、大学の講義における生成AI・Web制作の学習記録です。
-      掲載画像と文章・コードの作成にはChatGPTを使用しています。
+      掲載画像と文章・コードの作成にはChatGPT・Codexを使用しています。
       制作過程とAIの使用範囲は各項目に記載しています。
     </p>
   </footer>
