@@ -4,21 +4,21 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Duan-Flux747 | Portfolio 2026</title>
+  <title>My-Portfolio@2026</title>
   <meta
     name="description"
-    content="Duan-Flux747の作品ポートフォリオ。FX・VFX、生成AI、アニメ風背景アートを探求しています。"
+    content="TUN MYINT AUNGによる大学の講義での生成AI・Web制作の学習記録。AIを使った制作や試行錯誤を紹介しています。"
   >
 
-  <meta property="og:title" content="Duan-Flux747 | Portfolio 2026">
+  <meta property="og:title" content="My-Portfolio@2026">
   <meta property="og:type" content="website">
   <meta
     property="og:description"
-    content="FX・VFXとアニメ風背景アートを、生成AIとともに探求するポートフォリオ。"
+    content="大学の講義を通して学んだ生成AIの活用と、Webページ制作の記録です。"
   >
   <meta
     property="og:image"
-    content="https://duan-flux747.github.io/dhu2026summer-/images/work-01.png"
+    content="https://duan-flux747.github.io/dhu2026summer-/images/event-horizon.png"
   >
 
   <link rel="stylesheet" href="style.css">
@@ -28,76 +28,178 @@
       display: block;
       width: 100%;
       height: auto;
+      border-radius: 12px;
+    }
+
+    .bio,
+    .work p {
+      line-height: 1.9;
+    }
+
+    .work details {
+      margin-top: 1rem;
+    }
+
+    .work summary {
+      cursor: pointer;
     }
 
     .work pre {
+      max-width: 100%;
+      box-sizing: border-box;
+      padding: 1rem;
       white-space: pre-wrap;
       overflow-wrap: anywhere;
-      line-height: 1.7;
+      font-size: 0.9rem;
+      line-height: 1.8;
+      background: rgba(127, 127, 127, 0.08);
+      border-radius: 8px;
     }
   </style>
 </head>
 
 <body>
   <header class="hero">
-    <p class="course">FX / VFX / AI / Background Art</p>
-    <h1>Duan-Flux747</h1>
+    <p class="course">My-Portfolio@2026 / 生成AI・Web制作の学習記録</p>
+
+    <h1>TUN MYINT AUNG</h1>
+
     <p class="bio">
-      FX・VFXアーティストとして、光・粒子・流体が生み出す表現を探求しています。<br>
-      生成AIを学びながら、ときにはアニメ風の背景画も描いています。<br>
-      映像的な迫力と、物語を感じる風景を組み合わせた作品づくりを目指しています。
+      アニメ撮影（コンポジット）アーティストを目指して学んでいる大学生です。<br>
+      現在、大学の講義を通して生成AIの活用やWebページ制作に取り組んでいます。<br>
+      このページは、講義で学んだことやAIを使った試行錯誤を記録する学習用サイトです。
+      アニメ撮影・3DCG・FX・VFXの制作実績や、技術力を示すためのポートフォリオではありません。
     </p>
   </header>
 
   <main>
-    <section>
-      <h2>作品</h2>
+    <section aria-labelledby="works-heading">
+      <h2 id="works-heading">AI制作・学習記録</h2>
 
       <div class="works">
         <figure class="work">
           <img
-            src="images/work-01.png"
-            alt="雨に濡れたテラスから望む海辺の都市。青く輝く流体と金色の粒子が、渦を描いて夜空へ立ち上る。"
+            src="images/event-horizon.png"
+            alt="宙に浮かぶ人物が手を伸ばし、空の二つのブラックホールへ水や岩、紫色の結晶が引き寄せられるダークファンタジーの風景。"
           >
 
           <figcaption>
-            <h3>Flux — Between Worlds</h3>
-            <p class="meta">2026 / AI生成コンセプトアート</p>
+            <h3>EVENT HORIZON — 星を従える者</h3>
 
-            <p>
-              FX・VFXとアニメ風背景アートへの関心を、一つの風景として表現した作品です。
-              雨上がりの海辺の都市を舞台に、青い流体のような光と金色の粒子が
-              空へ立ち上る情景を描いています。
-              静かな街並みと動きのあるエフェクトを組み合わせ、
-              現実と想像の境界に立つような感覚を目指しました。
+            <p class="meta">
+              2026 / 生成AIによる画像制作の学習 / Dark Fantasy
             </p>
 
             <p>
-              制作にはChatGPTの画像生成機能を使用しました。
-              私が伝えた活動分野や興味をもとに、ChatGPTが生成用プロンプトを構成し、
-              画像を生成しています。手描き作品や実際のFXシミュレーションではなく、
-              今後の表現を探るためのAI生成コンセプトアートです。
+              この画像は、言葉による指示で生成AIの出力がどう変わるかを試した学習作品です。
+              「美しさ」と「畏怖」が同時に存在する場面を目指し、
+              人物の動き、空のブラックホール、浮遊する結晶、
+              暗い色調などを対話しながら調整しました。
+            </p>
+
+            <p>
+              最初の穏やかな風景に対して、より強い動きと威圧感を求める指示を加えました。
+              完成画像では、深い藍色と紫の空、光るブラックホールの縁、
+              舞い上がる破片などが、その方向性を表しています。
+              ブラックホールの描写は科学的な再現ではなく、
+              ファンタジーとしての演出です。
+            </p>
+
+            <p>
+              使用ツール：ChatGPTの画像生成機能。<br>
+              私が参考となる雰囲気や修正方針を伝え、
+              ChatGPTが詳細なプロンプトの構成と画像生成を担当しました。
+              この画像はAI生成の静止画であり、
+              私が手作業でアニメ撮影、3D制作、FXシミュレーションを行ったものではありません。
             </p>
 
             <details>
-              <summary>使ったプロンプト（英語）</summary>
-              <pre lang="en">Create one polished landscape portfolio artwork for Duan-Flux747, an FX/VFX artist learning AI who also draws anime-style backgrounds. Original cinematic environment concept art, 16:9 wide.
+              <summary>制作過程と修正の記録</summary>
 
-A rain-soaked elevated terrace overlooking an intricately painted Japanese-inspired futuristic coastal city at blue hour, distant mountains and luminous clouds.
+              <p>
+                はじめに、自分の興味をもとに画像生成を依頼しました。
+                最初の提案は求めていた雰囲気と異なったため、
+                幻想的な空や光の演出がある参考画像を示し、
+                そのままコピーせず、新しい場面として展開するよう伝えました。
+              </p>
 
-Central visual focal point: an elegant vast spiral of turquoise fluid-like energy and warm amber embers sweeping from the foreground toward the sky, with convincing volumetric smoke, fine particle trails, refractive water droplets, physically coherent reflected lighting on wet stone, controlled layered VFX detail.
+              <p>
+                その後、光る花びらが星空へ流れる穏やかな風景が生成されました。
+                さらに「もっとアクションが欲しい」「少し暗いトーンにしたい」
+                「空にブラックホールを一つか二つ加えたい」と修正を指示し、
+                現在の画像になりました。
+              </p>
 
-A tiny anonymous artist silhouette on the terrace gives scale, not a portrait.
+              <p>
+                『原神』のロノヴァを威圧感や神秘的な雰囲気の参考として挙げました。
+                生成用プロンプトでは、特定のキャラクターや衣装を再現せず、
+                オリジナルのデザインにするよう指定しています。
+              </p>
+            </details>
 
-Subtle geometric light filaments within the energy suggest computational creativity and AI, organically integrated, no interface overlays.
+            <details>
+              <summary>今回の学習で気づいたこと</summary>
 
-Beautiful hand-painted anime background craftsmanship in buildings, atmospheric perspective, foliage and clouds, paired with sophisticated cinematic effects.
+              <p>
+                「美しく」「優雅に」といった抽象的な言葉だけでは、
+                自分が思い描く方向が十分に伝わらないことがありました。
+                参考画像を使って雰囲気を共有し、
+                動き・明るさ・色・追加したい要素を具体的に伝えることで、
+                出力の方向を調整しやすくなりました。
+              </p>
 
-Thoughtful composition with clear focal hierarchy, restrained teal/indigo and gold palette, dramatic but serene, professional environment key art rather than a generic neon collage.
+              <p>
+                また、生成された画像を見るだけでなく、
+                何が違うと感じたのかを言葉にして修正する過程も、
+                今回の学習の大切な部分でした。
+              </p>
+            </details>
 
-No lettering, no signature, no watermark, no logos.
+            <details>
+              <summary>使用した画像編集プロンプト（英語・全文）</summary>
 
-This is artwork to display in a creative portfolio, not a website mockup.</pre>
+              <p>
+                先に生成した星空と湖の画像を編集元として、
+                ChatGPTが構成した以下のプロンプトで変更しました。
+              </p>
+
+              <pre lang="en">Transform this portfolio artwork into a dynamic intimidating dark celestial fantasy action scene. Keep its beautiful sophisticated anime illustration medium, alpine lake setting, petals/crystals motif, and original adult woman with short midnight teal hair, but substantially change the action, lighting and sky.
+
+User wants a slightly darker tone and a black hole or two in the sky, with the imposing divine presence they associate with Ronova from Genshin; convey that emotional gravity using an ORIGINAL character and costume rather than reproducing Ronova.
+
+Wide 16:9 cinematic key frame. Low camera close to the water with strong diagonal composition.
+
+Woman now larger at left foreground, three-quarter view, suspended just above a shattering stone ledge, torso twisting through a powerful sweeping arm gesture as if commanding gravity, one leg extended down and the other bent naturally.
+
+Her elegant ivory and charcoal travelling coat with wine-purple lining whips into sharp flowing arcs; resolute intimidating expression, anatomical hands and clear silhouette.
+
+Enormous pitch-black gravitational sphere in upper right sky with thin searing violet-white photon ring and tilted crimson-gold accretion disk visibly bent over and under sphere by gravitational lensing; a second much smaller distant black hole upper left establishes cosmic scale without symmetrical rings.
+
+The heavens visibly warp around these voids.
+
+A massive curved surge of lake water, stone fragments, luminous petals and prismatic shards is pulled diagonally upward around her toward the main black hole.
+
+Distinct finely controlled particle trails convey velocity and directional acceleration; sharp character with selective motion blur in foreground debris, huge broken circular shockwave ripples race across water.
+
+Dark indigo and storm-lavender clouds, black-cherry shadows, silver-violet rim light and selective ember-crimson accents, retain luminous beautiful atmospheric detail and readable mountains; don't crush everything into darkness.
+
+Mood majestic, ominous, elegant and powerful rather than horror.
+
+Painterly anime background and refined cinematic VFX compositing, believable reflections, layered mist, dramatic scale, coherent focal hierarchy.
+
+No text, no watermark, no game UI, no logos, no gore, no recognizable existing character costume.</pre>
+            </details>
+
+            <details>
+              <summary>このWebページの制作について</summary>
+
+              <p>
+                講義で紹介されたGitHubのテンプレートをもとに、
+                ChatGPTの支援を受けながらHTMLの内容を編集しました。
+                自己紹介や作品説明の変更、画像のアップロード、
+                変更のコミット、GitHub Pagesでの公開を通して、
+                Webページ制作の基本を学んでいます。
+              </p>
             </details>
           </figcaption>
         </figure>
@@ -106,10 +208,11 @@ This is artwork to display in a creative portfolio, not a website mockup.</pre>
   </main>
 
   <footer>
-    <p>Duan-Flux747</p>
+    <p>TUN MYINT AUNG</p>
     <p class="note">
-      掲載作品には生成AIを使用しています。
-      使用したツール、制作過程、プロンプトは各作品に記載しています。
+      このサイトは、大学の講義における生成AI・Web制作の学習記録です。
+      掲載画像と文章・コードの作成にはChatGPTを使用しています。
+      制作過程とAIの使用範囲は各項目に記載しています。
     </p>
   </footer>
 </body>
