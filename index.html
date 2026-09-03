@@ -3,49 +3,104 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Duan-Flux747 | Portfolio 2026</title>
-  <meta name="description" content="Duan-Flux747の作品ポートフォリオ">
 
-  <!-- SNS用の画像。あとで自分の画像の公開URLに差し替えてください -->
+  <title>Duan-Flux747 | Portfolio 2026</title>
+  <meta
+    name="description"
+    content="Duan-Flux747の作品ポートフォリオ。FX・VFX、生成AI、アニメ風背景アートを探求しています。"
+  >
+
   <meta property="og:title" content="Duan-Flux747 | Portfolio 2026">
   <meta property="og:type" content="website">
-  <meta property="og:image" content="http://akihiko.shirai.as/github-portfolio-template/images/HakaseOG.png">
+  <meta
+    property="og:description"
+    content="FX・VFXとアニメ風背景アートを、生成AIとともに探求するポートフォリオ。"
+  >
+  <meta
+    property="og:image"
+    content="https://duan-flux747.github.io/dhu2026summer-/images/work-01.png"
+  >
 
   <link rel="stylesheet" href="style.css">
-</head>
-<body>
 
+  <style>
+    .work img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+
+    .work pre {
+      white-space: pre-wrap;
+      overflow-wrap: anywhere;
+      line-height: 1.7;
+    }
+  </style>
+</head>
+
+<body>
   <header class="hero">
-    <p class="course">Portfolio</p>
+    <p class="course">FX / VFX / AI / Background Art</p>
     <h1>Duan-Flux747</h1>
     <p class="bio">
-      ここに自己紹介を書きます。何をつくる人か、何に興味があるかを2〜3行で。
+      FX・VFXアーティストとして、光・粒子・流体が生み出す表現を探求しています。<br>
+      生成AIを学びながら、ときにはアニメ風の背景画も描いています。<br>
+      映像的な迫力と、物語を感じる風景を組み合わせた作品づくりを目指しています。
     </p>
   </header>
 
   <main>
     <section>
       <h2>作品</h2>
-      <div class="works">
 
-        <!--
-          作品を増やすときは、figure要素全体をコピーして、
-          中身を書き換えてください。
-          画像は images/ フォルダに入れます。
-        -->
+      <div class="works">
         <figure class="work">
-          <img src="images/work-01.png" alt="作品1の説明">
+          <img
+            src="images/work-01.png"
+            alt="雨に濡れたテラスから望む海辺の都市。青く輝く流体と金色の粒子が、渦を描いて夜空へ立ち上る。"
+          >
+
           <figcaption>
-            <h3>作品のタイトル</h3>
-            <p class="meta">2026</p>
-            <p>この作品で何を表現したかったか、どう作ったかを書きます。</p>
+            <h3>Flux — Between Worlds</h3>
+            <p class="meta">2026 / AI生成コンセプトアート</p>
+
+            <p>
+              FX・VFXとアニメ風背景アートへの関心を、一つの風景として表現した作品です。
+              雨上がりの海辺の都市を舞台に、青い流体のような光と金色の粒子が
+              空へ立ち上る情景を描いています。
+              静かな街並みと動きのあるエフェクトを組み合わせ、
+              現実と想像の境界に立つような感覚を目指しました。
+            </p>
+
+            <p>
+              制作にはChatGPTの画像生成機能を使用しました。
+              私が伝えた活動分野や興味をもとに、ChatGPTが生成用プロンプトを構成し、
+              画像を生成しています。手描き作品や実際のFXシミュレーションではなく、
+              今後の表現を探るためのAI生成コンセプトアートです。
+            </p>
+
             <details>
-              <summary>使ったプロンプト</summary>
-              <pre>ここにプロンプトを貼ります</pre>
+              <summary>使ったプロンプト（英語）</summary>
+              <pre lang="en">Create one polished landscape portfolio artwork for Duan-Flux747, an FX/VFX artist learning AI who also draws anime-style backgrounds. Original cinematic environment concept art, 16:9 wide.
+
+A rain-soaked elevated terrace overlooking an intricately painted Japanese-inspired futuristic coastal city at blue hour, distant mountains and luminous clouds.
+
+Central visual focal point: an elegant vast spiral of turquoise fluid-like energy and warm amber embers sweeping from the foreground toward the sky, with convincing volumetric smoke, fine particle trails, refractive water droplets, physically coherent reflected lighting on wet stone, controlled layered VFX detail.
+
+A tiny anonymous artist silhouette on the terrace gives scale, not a portrait.
+
+Subtle geometric light filaments within the energy suggest computational creativity and AI, organically integrated, no interface overlays.
+
+Beautiful hand-painted anime background craftsmanship in buildings, atmospheric perspective, foliage and clouds, paired with sophisticated cinematic effects.
+
+Thoughtful composition with clear focal hierarchy, restrained teal/indigo and gold palette, dramatic but serene, professional environment key art rather than a generic neon collage.
+
+No lettering, no signature, no watermark, no logos.
+
+This is artwork to display in a creative portfolio, not a website mockup.</pre>
             </details>
           </figcaption>
         </figure>
-
       </div>
     </section>
   </main>
@@ -53,10 +108,9 @@
   <footer>
     <p>Duan-Flux747</p>
     <p class="note">
-      このページの画像は生成AIを用いて制作しています。
-      使用したツールとプロンプトは各作品に記載しています。
+      掲載作品には生成AIを使用しています。
+      使用したツール、制作過程、プロンプトは各作品に記載しています。
     </p>
   </footer>
-
 </body>
 </html>
